@@ -3,5 +3,5 @@ country = "jp"
 history_path = "data/history.json"
 watchlist_path = "watchlist.txt"
 request_interval_seconds = 1.0
-spreadsheet_id = "1uy7g5RLMYqje0bHnnub83JbjEifC7rICD9C7BsLtEho"
-worksheet = "自動取得"
+table_path = "data/changelog.md"
+

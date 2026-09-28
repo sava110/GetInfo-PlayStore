@@ -23,6 +23,7 @@ class Config:
     spreadsheet_id: str
     worksheet: str
     credentials_path: Path | None
+    table_path: Path
 
 
 def load_config(path: Path | None = None) -> Config:
@@ -60,6 +61,7 @@ def load_config(path: Path | None = None) -> Config:
         ),
         worksheet=str(data.get("worksheet", "自動取得")),
         credentials_path=credentials_path,
+        table_path=Path(str(data.get("table_path", "data/changelog.md"))),
     )
 
 

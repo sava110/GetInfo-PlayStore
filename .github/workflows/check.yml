@@ -26,11 +26,14 @@ jobs:
         continue-on-error: true
         run: python -m playarchive check
 
+      - name: Build readable table
+        run: python -m playarchive table
+
       - name: Save history if it changed
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/history.json
+          git add data/history.json data/changelog.md
           if git diff --staged --quiet; then
             echo "履歴の変更はありません"
             exit 0

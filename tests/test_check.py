@@ -63,6 +63,7 @@ class CheckTest(unittest.TestCase):
             spreadsheet_id="test-sheet",
             worksheet="自動取得",
             credentials_path=None,
+            table_path=self.root / "changelog.md",
         )
 
     def check(self, config: Config, fetcher) -> tuple[int, str]:

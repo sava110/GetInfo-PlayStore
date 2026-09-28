@@ -12,6 +12,7 @@ from playarchive.releasenotes import APP_ID as DESKTOP_CAPTION_ID
 from playarchive.releasenotes import fetch_latest_release
 from playarchive.sheets import SheetsError, build_table, write_table
 from playarchive.store import HistoryError, load_history, save_history
+from playarchive.table import write_markdown
 
 _GAP_NOTE = (
     "番号が飛んで見えます。飛んだあいだの文面はこの取得では入手していません。"
@@ -31,6 +32,7 @@ def main(argv: list[str] | None = None) -> int:
     peek = sub.add_parser("peek", help="ストアの現在値を表示する")
     peek.add_argument("package")
     sub.add_parser("sheets", help="history.json の最新値をスプレッドシートへ書く")
+    sub.add_parser("table", help="history.json から閲覧用の Markdown 表を作る")
     args = parser.parse_args(argv)
 
     try:
@@ -47,6 +49,8 @@ def main(argv: list[str] | None = None) -> int:
         return run_show(config, args.package)
     if args.command == "sheets":
         return run_sheets(config)
+    if args.command == "table":
+        return run_table(config)
     return run_peek_any(config, args.package)
 
 
@@ -90,6 +94,7 @@ def run_check(
     if fetched and config.request_interval_seconds:
         sleep(config.request_interval_seconds)
     failures += _record_release(config, document, release_fetcher, now or _utc_now())
+    _refresh_table(config, document)
     return 1 if failures else 0
 
 
@@ -140,6 +145,21 @@ def run_sheets(config: Config, client=None) -> int:
         return 1
     print(f"wrote {config.spreadsheet_id} / {worksheet}")
     return 0
+
+
+def run_table(config: Config) -> int:
+    try:
+        document = load_history(config.history_path)
+    except HistoryError as exc:
+        print(exc, file=sys.stderr)
+        return 2
+    _refresh_table(config, document)
+    print(f"wrote {config.table_path}")
+    return 0
+
+
+def _refresh_table(config: Config, document: dict) -> None:
+    write_markdown(document, config.table_path)
 
 
 def run_peek_any(config: Config, package_id: str) -> int:
