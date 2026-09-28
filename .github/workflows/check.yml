@@ -1,0 +1,43 @@
+name: Check app updates
+
+on:
+  schedule:
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install
+        run: pip install -e .
+
+      - name: Fetch latest store notes
+        id: fetch
+        continue-on-error: true
+        run: python -m playarchive check
+
+      - name: Save history if it changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/history.json
+          if git diff --staged --quiet; then
+            echo "履歴の変更はありません"
+            exit 0
+          fi
+          git commit -m "Update store changelog history"
+          git push
+
+      - name: Fail if fetching failed
+        if: steps.fetch.outcome == 'failure'
+        run: exit 1

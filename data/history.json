@@ -1,0 +1,161 @@
+{
+    "schemaVersion": 1,
+    "apps": {
+        "yyprobe.yysystem.android": {
+            "title": "YYProbe - 会話の可視化・分析アプリ -",
+            "url": "https://play.google.com/store/apps/details?id=yyprobe.yysystem.android&hl=ja&gl=jp",
+            "developer": "YYSYSTEM",
+            "latest": {
+                "version": "Varies with device",
+                "updated": 1790332949,
+                "recentChanges": "以下の内容に対応しました\n・高精度認識モードの対応言語を見直し",
+                "changelogHash": "sha256:bbdb1b474277c1dc8d5c730567491900fe8efb6736aa73a24a6158c58666a551",
+                "fetchedAt": "2026-09-28T02:25:15Z"
+            },
+            "lastCheckedAt": "2026-09-28T02:59:50Z",
+            "lastError": null,
+            "history": [
+                {
+                    "version": "Varies with device",
+                    "previousVersion": null,
+                    "updated": 1790332949,
+                    "recentChanges": "以下の内容に対応しました\n・高精度認識モードの対応言語を見直し",
+                    "changelogHash": "sha256:bbdb1b474277c1dc8d5c730567491900fe8efb6736aa73a24a6158c58666a551",
+                    "fetchedAt": "2026-09-28T02:25:15Z",
+                    "gapSuspected": false,
+                    "versionCompare": "unparsed"
+                }
+            ]
+        },
+        "yytranscript.yysystem.android": {
+            "title": "YY文字起こし",
+            "url": "https://play.google.com/store/apps/details?id=yytranscript.yysystem.android&hl=ja&gl=jp",
+            "developer": "YYSYSTEM",
+            "latest": {
+                "version": "2.8.2",
+                "updated": 1790046107,
+                "recentChanges": "以下の内容に対応しています。\n・韓国語のローカライズ対応\n・言語の並び替え\n・処理の最適化\n・その他修正",
+                "changelogHash": "sha256:4fdc792f42aab04460700e53f82f03e6efd5567bc3c5c0bff94cc3c54f155de0",
+                "fetchedAt": "2026-09-28T02:25:16Z"
+            },
+            "lastCheckedAt": "2026-09-28T02:59:51Z",
+            "lastError": null,
+            "history": [
+                {
+                    "version": "2.8.2",
+                    "previousVersion": null,
+                    "updated": 1790046107,
+                    "recentChanges": "以下の内容に対応しています。\n・韓国語のローカライズ対応\n・言語の並び替え\n・処理の最適化\n・その他修正",
+                    "changelogHash": "sha256:4fdc792f42aab04460700e53f82f03e6efd5567bc3c5c0bff94cc3c54f155de0",
+                    "fetchedAt": "2026-09-28T02:25:16Z",
+                    "gapSuspected": false,
+                    "versionCompare": "parsed"
+                }
+            ]
+        },
+        "yysystem.yydesktopcaption": {
+            "title": "YYデスクトップ字幕",
+            "url": "https://yysystem.com/releasenotes/yydesktopcaption",
+            "developer": "YYSYSTEM",
+            "latest": {
+                "version": "4.0.7",
+                "updated": 1785974400,
+                "recentChanges": "近日中に今までのバージョンで一部機能が使用できなくなりますので、アップデートをお願いいたします\n・セキュリティ対策\n・画面表示の不具合を修正\n・言語の切り替え時に音声認識が停止する問題を修正\n・一部の補聴器で文字起こしが開始されない問題を修正\n・その他の不具合修正\n・UI最適化",
+                "changelogHash": "sha256:abdcccfdd7ad4f8642e3602fa2fd193653c07b91e58a18ad6ee78efcd3600601",
+                "fetchedAt": "2026-09-28T02:33:32Z"
+            },
+            "lastCheckedAt": "2026-09-28T02:59:56Z",
+            "lastError": null,
+            "history": [
+                {
+                    "version": "4.0.7",
+                    "previousVersion": null,
+                    "updated": 1785974400,
+                    "recentChanges": "近日中に今までのバージョンで一部機能が使用できなくなりますので、アップデートをお願いいたします\n・セキュリティ対策\n・画面表示の不具合を修正\n・言語の切り替え時に音声認識が停止する問題を修正\n・一部の補聴器で文字起こしが開始されない問題を修正\n・その他の不具合修正\n・UI最適化",
+                    "changelogHash": "sha256:abdcccfdd7ad4f8642e3602fa2fd193653c07b91e58a18ad6ee78efcd3600601",
+                    "fetchedAt": "2026-09-28T02:33:32Z",
+                    "gapSuspected": false,
+                    "versionCompare": "parsed"
+                }
+            ]
+        },
+        "com.yysystem.YYProbe-Lite": {
+            "title": "YYProbe - 会話の可視化アプリ -",
+            "url": "https://apps.apple.com/jp/app/yyprobe-%E4%BC%9A%E8%A9%B1%E3%81%AE%E5%8F%AF%E8%A6%96%E5%8C%96%E3%82%A2%E3%83%97%E3%83%AA/id1493896577?uo=4",
+            "developer": "EQUOS RESEARCH CO.,LTD.",
+            "latest": {
+                "version": "9.6.34",
+                "updated": 1790549214,
+                "recentChanges": "本バージョンでは下記対応を行いました。\n・AiLENSに表示するテキストを上揃えと下揃えを選択できるようにしました",
+                "changelogHash": "sha256:511849af9711e695f193c5c905a53c27636a75215e65168c528c706d12a168e6",
+                "fetchedAt": "2026-09-28T02:59:52Z"
+            },
+            "lastCheckedAt": "2026-09-28T02:59:52Z",
+            "lastError": null,
+            "history": [
+                {
+                    "version": "9.6.34",
+                    "previousVersion": null,
+                    "updated": 1790549214,
+                    "recentChanges": "本バージョンでは下記対応を行いました。\n・AiLENSに表示するテキストを上揃えと下揃えを選択できるようにしました",
+                    "changelogHash": "sha256:511849af9711e695f193c5c905a53c27636a75215e65168c528c706d12a168e6",
+                    "fetchedAt": "2026-09-28T02:59:52Z",
+                    "gapSuspected": false,
+                    "versionCompare": "parsed"
+                }
+            ]
+        },
+        "com.yysystem.YYSimpleTranscript": {
+            "title": "YY文字起こし -高性能でシンプルな文字起こしアプリ-",
+            "url": "https://apps.apple.com/jp/app/yy%E6%96%87%E5%AD%97%E8%B5%B7%E3%81%93%E3%81%97-%E9%AB%98%E6%80%A7%E8%83%BD%E3%81%A7%E3%82%B7%E3%83%B3%E3%83%97%E3%83%AB%E3%81%AA%E6%96%87%E5%AD%97%E8%B5%B7%E3%81%93%E3%81%97%E3%82%A2%E3%83%97%E3%83%AA/id1570419146?uo=4",
+            "developer": "EQUOS RESEARCH CO.,LTD.",
+            "latest": {
+                "version": "18.20.16",
+                "updated": 1790548725,
+                "recentChanges": "本バージョンでは下記対応を行いました。\n・AiLENSに表示するテキストを上揃えと下揃えを選択できるようにしました\n・LLM音声認識の言語判別を改善しました",
+                "changelogHash": "sha256:91a0f52d2649fb4d35fd2b61481ee89c68a153038799167ce9b5909929d5cd2e",
+                "fetchedAt": "2026-09-28T02:59:53Z"
+            },
+            "lastCheckedAt": "2026-09-28T02:59:53Z",
+            "lastError": null,
+            "history": [
+                {
+                    "version": "18.20.16",
+                    "previousVersion": null,
+                    "updated": 1790548725,
+                    "recentChanges": "本バージョンでは下記対応を行いました。\n・AiLENSに表示するテキストを上揃えと下揃えを選択できるようにしました\n・LLM音声認識の言語判別を改善しました",
+                    "changelogHash": "sha256:91a0f52d2649fb4d35fd2b61481ee89c68a153038799167ce9b5909929d5cd2e",
+                    "fetchedAt": "2026-09-28T02:59:53Z",
+                    "gapSuspected": false,
+                    "versionCompare": "parsed"
+                }
+            ]
+        },
+        "com.yysystem.YYReceptionWindow": {
+            "title": "YYレセプション -簡単で手軽に使える音声認識アプリ-",
+            "url": "https://apps.apple.com/jp/app/yy%E3%83%AC%E3%82%BB%E3%83%97%E3%82%B7%E3%83%A7%E3%83%B3-%E7%B0%A1%E5%8D%98%E3%81%A7%E6%89%8B%E8%BB%BD%E3%81%AB%E4%BD%BF%E3%81%88%E3%82%8B%E9%9F%B3%E5%A3%B0%E8%AA%8D%E8%AD%98%E3%82%A2%E3%83%97%E3%83%AA/id6443889584?uo=4",
+            "developer": "EQUOS RESEARCH CO.,LTD.",
+            "latest": {
+                "version": "6.3.29",
+                "updated": 1790548569,
+                "recentChanges": "本バージョンでは下記対応を行いました。\n・AiLENSに表示するテキストを上揃えと下揃えを選択できるようにしました\n・高精度認識モードの言語判別を改善しました",
+                "changelogHash": "sha256:85cb6c46661b308731c27bd978f0862efcca7cdf0b8fa3ab0f7c2e7065593151",
+                "fetchedAt": "2026-09-28T02:59:54Z"
+            },
+            "lastCheckedAt": "2026-09-28T02:59:54Z",
+            "lastError": null,
+            "history": [
+                {
+                    "version": "6.3.29",
+                    "previousVersion": null,
+                    "updated": 1790548569,
+                    "recentChanges": "本バージョンでは下記対応を行いました。\n・AiLENSに表示するテキストを上揃えと下揃えを選択できるようにしました\n・高精度認識モードの言語判別を改善しました",
+                    "changelogHash": "sha256:85cb6c46661b308731c27bd978f0862efcca7cdf0b8fa3ab0f7c2e7065593151",
+                    "fetchedAt": "2026-09-28T02:59:54Z",
+                    "gapSuspected": false,
+                    "versionCompare": "parsed"
+                }
+            ]
+        }
+    }
+}

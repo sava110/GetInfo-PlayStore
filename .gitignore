@@ -1,0 +1,12 @@
+.venv/
+data/*
+!data/history.json
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+dist/
+build/
+credentials.json
+*-credentials.json
+service-account.json

@@ -1,0 +1,20 @@
+[project]
+name = "playarchive"
+version = "0.1.0"
+description = "Archive the Google Play What's new text that the store overwrites."
+requires-python = ">=3.11"
+dependencies = [
+    "google-play-scraper==1.2.7",
+    "gspread==6.2.1",
+    "google-auth==2.40.3",
+]
+
+[project.scripts]
+playarchive = "playarchive.cli:main"
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]

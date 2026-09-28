@@ -1,0 +1,6 @@
+# Play のパッケージ名、または App Store は「ios バンドルID」
+yyprobe.yysystem.android
+yytranscript.yysystem.android
+ios com.yysystem.YYProbe-Lite
+ios com.yysystem.YYSimpleTranscript
+ios com.yysystem.YYReceptionWindow
