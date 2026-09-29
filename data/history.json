@@ -12,7 +12,7 @@
                 "changelogHash": "sha256:bbdb1b474277c1dc8d5c730567491900fe8efb6736aa73a24a6158c58666a551",
                 "fetchedAt": "2026-09-28T02:25:15Z"
             },
-            "lastCheckedAt": "2026-09-29T05:30:48Z",
+            "lastCheckedAt": "2026-09-29T21:53:44Z",
             "lastError": null,
             "history": [
                 {
@@ -32,13 +32,13 @@
             "url": "https://play.google.com/store/apps/details?id=yytranscript.yysystem.android&hl=ja&gl=jp",
             "developer": "YYSYSTEM",
             "latest": {
-                "version": "2.8.2",
-                "updated": 1790046107,
-                "recentChanges": "以下の内容に対応しています。\n・韓国語のローカライズ対応\n・言語の並び替え\n・処理の最適化\n・その他修正",
-                "changelogHash": "sha256:4fdc792f42aab04460700e53f82f03e6efd5567bc3c5c0bff94cc3c54f155de0",
-                "fetchedAt": "2026-09-28T02:25:16Z"
+                "version": "2.8.4",
+                "updated": 1790576726,
+                "recentChanges": "以下の内容に対応しています。\n・AiLENSの表示領域を上下を選択できるように変更\n・ダークモードのキーボード発言のテキスト領域が見づらい不具合修正",
+                "changelogHash": "sha256:c19f7de8239d4d893e27003e29552ca849c2fca0ca0ceac571229d6cfe56c4a6",
+                "fetchedAt": "2026-09-29T21:53:44Z"
             },
-            "lastCheckedAt": "2026-09-29T05:30:48Z",
+            "lastCheckedAt": "2026-09-29T21:53:44Z",
             "lastError": null,
             "history": [
                 {
@@ -49,6 +49,16 @@
                     "changelogHash": "sha256:4fdc792f42aab04460700e53f82f03e6efd5567bc3c5c0bff94cc3c54f155de0",
                     "fetchedAt": "2026-09-28T02:25:16Z",
                     "gapSuspected": false,
+                    "versionCompare": "parsed"
+                },
+                {
+                    "version": "2.8.4",
+                    "previousVersion": "2.8.2",
+                    "updated": 1790576726,
+                    "recentChanges": "以下の内容に対応しています。\n・AiLENSの表示領域を上下を選択できるように変更\n・ダークモードのキーボード発言のテキスト領域が見づらい不具合修正",
+                    "changelogHash": "sha256:c19f7de8239d4d893e27003e29552ca849c2fca0ca0ceac571229d6cfe56c4a6",
+                    "fetchedAt": "2026-09-29T21:53:44Z",
+                    "gapSuspected": true,
                     "versionCompare": "parsed"
                 }
             ]
@@ -64,7 +74,7 @@
                 "changelogHash": "sha256:abdcccfdd7ad4f8642e3602fa2fd193653c07b91e58a18ad6ee78efcd3600601",
                 "fetchedAt": "2026-09-28T02:33:32Z"
             },
-            "lastCheckedAt": "2026-09-29T05:30:54Z",
+            "lastCheckedAt": "2026-09-29T21:53:50Z",
             "lastError": null,
             "history": [
                 {
@@ -90,7 +100,7 @@
                 "changelogHash": "sha256:b8ace56fbf54d36415470556551a4d25a10bc4c56ee1346b4bf2edb41ef5571d",
                 "fetchedAt": "2026-09-29T01:01:55Z"
             },
-            "lastCheckedAt": "2026-09-29T05:30:49Z",
+            "lastCheckedAt": "2026-09-29T21:53:45Z",
             "lastError": null,
             "history": [
                 {
@@ -120,13 +130,13 @@
             "url": "https://apps.apple.com/jp/app/yy%E6%96%87%E5%AD%97%E8%B5%B7%E3%81%93%E3%81%97-%E9%AB%98%E6%80%A7%E8%83%BD%E3%81%A7%E3%82%B7%E3%83%B3%E3%83%97%E3%83%AB%E3%81%AA%E6%96%87%E5%AD%97%E8%B5%B7%E3%81%93%E3%81%97%E3%82%A2%E3%83%97%E3%83%AA/id1570419146?uo=4",
             "developer": "EQUOS RESEARCH CO.,LTD.",
             "latest": {
-                "version": "18.20.16",
-                "updated": 1790548725,
-                "recentChanges": "本バージョンでは下記対応を行いました。\n・AiLENSに表示するテキストを上揃えと下揃えを選択できるようにしました\n・LLM音声認識の言語判別を改善しました",
-                "changelogHash": "sha256:91a0f52d2649fb4d35fd2b61481ee89c68a153038799167ce9b5909929d5cd2e",
-                "fetchedAt": "2026-09-28T02:59:53Z"
+                "version": "18.20.17",
+                "updated": 1790699111,
+                "recentChanges": "本バージョンでは下記対応を行いました。\n・内部処理の改善",
+                "changelogHash": "sha256:88e5c2c1645820188a399df564a426ac63faf174ff1bd6e5b69f811abeaeaae1",
+                "fetchedAt": "2026-09-29T21:53:47Z"
             },
-            "lastCheckedAt": "2026-09-29T05:30:51Z",
+            "lastCheckedAt": "2026-09-29T21:53:47Z",
             "lastError": null,
             "history": [
                 {
@@ -136,6 +146,16 @@
                     "recentChanges": "本バージョンでは下記対応を行いました。\n・AiLENSに表示するテキストを上揃えと下揃えを選択できるようにしました\n・LLM音声認識の言語判別を改善しました",
                     "changelogHash": "sha256:91a0f52d2649fb4d35fd2b61481ee89c68a153038799167ce9b5909929d5cd2e",
                     "fetchedAt": "2026-09-28T02:59:53Z",
+                    "gapSuspected": false,
+                    "versionCompare": "parsed"
+                },
+                {
+                    "version": "18.20.17",
+                    "previousVersion": "18.20.16",
+                    "updated": 1790699111,
+                    "recentChanges": "本バージョンでは下記対応を行いました。\n・内部処理の改善",
+                    "changelogHash": "sha256:88e5c2c1645820188a399df564a426ac63faf174ff1bd6e5b69f811abeaeaae1",
+                    "fetchedAt": "2026-09-29T21:53:47Z",
                     "gapSuspected": false,
                     "versionCompare": "parsed"
                 }
@@ -152,7 +172,7 @@
                 "changelogHash": "sha256:fe3d3076e8d33ed46aed55ddaa4f60c632129cff9b4971250b211de6afbc3320",
                 "fetchedAt": "2026-09-29T01:01:58Z"
             },
-            "lastCheckedAt": "2026-09-29T05:30:52Z",
+            "lastCheckedAt": "2026-09-29T21:53:48Z",
             "lastError": null,
             "history": [
                 {
