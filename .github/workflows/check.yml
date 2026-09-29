@@ -2,8 +2,8 @@ name: Check app updates
 
 on:
   schedule:
-    # 毎日 09:00 JST。GitHub Actions の cron は UTC 指定のため 00:00 UTC。
-    - cron: "0 0 * * *"
+    # 毎日 03:00 JST。GitHub Actions の cron は UTC 指定のため 18:00 UTC。
+    - cron: "0 18 * * *"
   workflow_dispatch:
 
 permissions:
