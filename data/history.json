@@ -12,7 +12,7 @@
                 "changelogHash": "sha256:bbdb1b474277c1dc8d5c730567491900fe8efb6736aa73a24a6158c58666a551",
                 "fetchedAt": "2026-09-28T02:25:15Z"
             },
-            "lastCheckedAt": "2026-09-28T04:07:35Z",
+            "lastCheckedAt": "2026-09-29T01:01:54Z",
             "lastError": null,
             "history": [
                 {
@@ -38,7 +38,7 @@
                 "changelogHash": "sha256:4fdc792f42aab04460700e53f82f03e6efd5567bc3c5c0bff94cc3c54f155de0",
                 "fetchedAt": "2026-09-28T02:25:16Z"
             },
-            "lastCheckedAt": "2026-09-28T04:07:35Z",
+            "lastCheckedAt": "2026-09-29T01:01:54Z",
             "lastError": null,
             "history": [
                 {
@@ -64,7 +64,7 @@
                 "changelogHash": "sha256:abdcccfdd7ad4f8642e3602fa2fd193653c07b91e58a18ad6ee78efcd3600601",
                 "fetchedAt": "2026-09-28T02:33:32Z"
             },
-            "lastCheckedAt": "2026-09-28T04:07:40Z",
+            "lastCheckedAt": "2026-09-29T01:02:00Z",
             "lastError": null,
             "history": [
                 {
@@ -84,13 +84,13 @@
             "url": "https://apps.apple.com/jp/app/yyprobe-%E4%BC%9A%E8%A9%B1%E3%81%AE%E5%8F%AF%E8%A6%96%E5%8C%96%E3%82%A2%E3%83%97%E3%83%AA/id1493896577?uo=4",
             "developer": "EQUOS RESEARCH CO.,LTD.",
             "latest": {
-                "version": "9.6.34",
-                "updated": 1790549214,
-                "recentChanges": "本バージョンでは下記対応を行いました。\n・AiLENSに表示するテキストを上揃えと下揃えを選択できるようにしました",
-                "changelogHash": "sha256:511849af9711e695f193c5c905a53c27636a75215e65168c528c706d12a168e6",
-                "fetchedAt": "2026-09-28T02:59:52Z"
+                "version": "9.6.35",
+                "updated": 1790626583,
+                "recentChanges": "本バージョンでは下記対応を行いました。\n・サイレンや鳴き声などの音を検出し、オノマトペで表示する機能を追加しました",
+                "changelogHash": "sha256:b8ace56fbf54d36415470556551a4d25a10bc4c56ee1346b4bf2edb41ef5571d",
+                "fetchedAt": "2026-09-29T01:01:55Z"
             },
-            "lastCheckedAt": "2026-09-28T04:07:36Z",
+            "lastCheckedAt": "2026-09-29T01:01:55Z",
             "lastError": null,
             "history": [
                 {
@@ -100,6 +100,16 @@
                     "recentChanges": "本バージョンでは下記対応を行いました。\n・AiLENSに表示するテキストを上揃えと下揃えを選択できるようにしました",
                     "changelogHash": "sha256:511849af9711e695f193c5c905a53c27636a75215e65168c528c706d12a168e6",
                     "fetchedAt": "2026-09-28T02:59:52Z",
+                    "gapSuspected": false,
+                    "versionCompare": "parsed"
+                },
+                {
+                    "version": "9.6.35",
+                    "previousVersion": "9.6.34",
+                    "updated": 1790626583,
+                    "recentChanges": "本バージョンでは下記対応を行いました。\n・サイレンや鳴き声などの音を検出し、オノマトペで表示する機能を追加しました",
+                    "changelogHash": "sha256:b8ace56fbf54d36415470556551a4d25a10bc4c56ee1346b4bf2edb41ef5571d",
+                    "fetchedAt": "2026-09-29T01:01:55Z",
                     "gapSuspected": false,
                     "versionCompare": "parsed"
                 }
@@ -116,7 +126,7 @@
                 "changelogHash": "sha256:91a0f52d2649fb4d35fd2b61481ee89c68a153038799167ce9b5909929d5cd2e",
                 "fetchedAt": "2026-09-28T02:59:53Z"
             },
-            "lastCheckedAt": "2026-09-28T04:07:37Z",
+            "lastCheckedAt": "2026-09-29T01:01:57Z",
             "lastError": null,
             "history": [
                 {
@@ -136,13 +146,13 @@
             "url": "https://apps.apple.com/jp/app/yy%E3%83%AC%E3%82%BB%E3%83%97%E3%82%B7%E3%83%A7%E3%83%B3-%E7%B0%A1%E5%8D%98%E3%81%A7%E6%89%8B%E8%BB%BD%E3%81%AB%E4%BD%BF%E3%81%88%E3%82%8B%E9%9F%B3%E5%A3%B0%E8%AA%8D%E8%AD%98%E3%82%A2%E3%83%97%E3%83%AA/id6443889584?uo=4",
             "developer": "EQUOS RESEARCH CO.,LTD.",
             "latest": {
-                "version": "6.3.29",
-                "updated": 1790548569,
-                "recentChanges": "本バージョンでは下記対応を行いました。\n・AiLENSに表示するテキストを上揃えと下揃えを選択できるようにしました\n・高精度認識モードの言語判別を改善しました",
-                "changelogHash": "sha256:85cb6c46661b308731c27bd978f0862efcca7cdf0b8fa3ab0f7c2e7065593151",
-                "fetchedAt": "2026-09-28T02:59:54Z"
+                "version": "6.3.30",
+                "updated": 1790631699,
+                "recentChanges": "本バージョンでは下記対応を行いました。\n・音声認識のオンライン／オフライン自動切り替えと、オフライン固定に対応しました。",
+                "changelogHash": "sha256:fe3d3076e8d33ed46aed55ddaa4f60c632129cff9b4971250b211de6afbc3320",
+                "fetchedAt": "2026-09-29T01:01:58Z"
             },
-            "lastCheckedAt": "2026-09-28T04:07:38Z",
+            "lastCheckedAt": "2026-09-29T01:01:58Z",
             "lastError": null,
             "history": [
                 {
@@ -152,6 +162,16 @@
                     "recentChanges": "本バージョンでは下記対応を行いました。\n・AiLENSに表示するテキストを上揃えと下揃えを選択できるようにしました\n・高精度認識モードの言語判別を改善しました",
                     "changelogHash": "sha256:85cb6c46661b308731c27bd978f0862efcca7cdf0b8fa3ab0f7c2e7065593151",
                     "fetchedAt": "2026-09-28T02:59:54Z",
+                    "gapSuspected": false,
+                    "versionCompare": "parsed"
+                },
+                {
+                    "version": "6.3.30",
+                    "previousVersion": "6.3.29",
+                    "updated": 1790631699,
+                    "recentChanges": "本バージョンでは下記対応を行いました。\n・音声認識のオンライン／オフライン自動切り替えと、オフライン固定に対応しました。",
+                    "changelogHash": "sha256:fe3d3076e8d33ed46aed55ddaa4f60c632129cff9b4971250b211de6afbc3320",
+                    "fetchedAt": "2026-09-29T01:01:58Z",
                     "gapSuspected": false,
                     "versionCompare": "parsed"
                 }
