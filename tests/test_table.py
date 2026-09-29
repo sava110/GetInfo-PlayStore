@@ -39,7 +39,9 @@ class TableRenderTest(unittest.TestCase):
                 }
             }
         }
-        text = render_markdown(document, generated_at="2026-09-28T03:00:00Z")
+        text = render_markdown(document, generated_at="2026-09-28T00:00:00Z")
+        self.assertIn("生成: 2026-09-28 09:00 JST", text)
+        self.assertIn("GitHub のリポジトリ画面でこの README を開くと表として表示されます。", text)
         self.assertIn("| アプリ | アプデ日 | Ver. | 内容 |", text)
         self.assertIn("| YY文字起こし iOS | 26/09/28 | 18.20.16 | 一行目<br>二行目 |", text)
         self.assertIn("## YY文字起こし iOS", text)
@@ -49,8 +51,8 @@ class TableRenderTest(unittest.TestCase):
 
     def test_write_creates_parent_directory(self):
         with TemporaryDirectory() as tmp:
-            path = Path(tmp) / "out" / "changelog.md"
-            write_markdown({"apps": {}}, path, generated_at="2026-09-28T03:00:00Z")
+            path = Path(tmp) / "out" / "README.md"
+            write_markdown({"apps": {}}, path, generated_at="2026-09-28T00:00:00Z")
             self.assertTrue(path.is_file())
             self.assertIn("# 更新履歴", path.read_text(encoding="utf-8"))
 

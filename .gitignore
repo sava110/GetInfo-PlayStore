@@ -1,7 +1,6 @@
 .venv/
 data/*
 !data/history.json
-!data/changelog.md
 __pycache__/
 *.py[cod]
 *.egg-info/

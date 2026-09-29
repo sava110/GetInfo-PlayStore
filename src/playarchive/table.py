@@ -13,13 +13,13 @@ def render_markdown(document: dict, *, generated_at: str | None = None) -> str:
     apps = document.get("apps") if isinstance(document, dict) else {}
     if not isinstance(apps, dict):
         apps = {}
-    stamp = generated_at or datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
+    stamp = _to_tokyo_clock(generated_at)
     lines = [
         "# 更新履歴",
         "",
-        f"生成: {stamp}（日本時間の日付）",
+        f"生成: {stamp}",
         "",
-        "GitHub 上でこのファイルを開くと表として表示されます。",
+        "GitHub のリポジトリ画面でこの README を開くと表として表示されます。",
         "",
         "## いまの最新",
         "",
@@ -81,6 +81,21 @@ def render_markdown(document: dict, *, generated_at: str | None = None) -> str:
 def write_markdown(document: dict, path: Path, *, generated_at: str | None = None) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text(render_markdown(document, generated_at=generated_at), encoding="utf-8")
+
+
+def _to_tokyo_clock(value: str | None) -> str:
+    tokyo = ZoneInfo("Asia/Tokyo")
+    if isinstance(value, str) and value.strip():
+        text = value.strip().replace("Z", "+00:00")
+        try:
+            moment = datetime.fromisoformat(text)
+        except ValueError:
+            return value.strip()
+        if moment.tzinfo is None:
+            moment = moment.replace(tzinfo=timezone.utc)
+    else:
+        moment = datetime.now(tokyo)
+    return moment.astimezone(tokyo).strftime("%Y-%m-%d %H:%M JST")
 
 
 def _iso_to_tokyo(value) -> str:

@@ -164,7 +164,7 @@ class SheetsLayoutTest(unittest.TestCase):
             spreadsheet_id="sheet-id",
             worksheet="自動取得",
             credentials_path=None,
-            table_path=Path("data/changelog.md"),
+            table_path=Path("README.md"),
         )
         name = write_table(build_table(sample_document()), config, client=client)
         self.assertEqual(name, "自動取得")
@@ -190,7 +190,7 @@ class SheetsLayoutTest(unittest.TestCase):
                 spreadsheet_id="sheet-id",
                 worksheet="自動取得",
                 credentials_path=None,
-                table_path=Path(tmp) / "changelog.md",
+                table_path=Path(tmp) / "README.md",
             )
             spreadsheet = FakeSpreadsheet(["自動取得"])
             code = run_sheets(config, client=FakeClient(spreadsheet))

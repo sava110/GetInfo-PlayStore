@@ -63,7 +63,7 @@ class CheckTest(unittest.TestCase):
             spreadsheet_id="test-sheet",
             worksheet="自動取得",
             credentials_path=None,
-            table_path=self.root / "changelog.md",
+            table_path=self.root / "README.md",
         )
 
     def check(self, config: Config, fetcher) -> tuple[int, str]:
@@ -232,6 +232,12 @@ class CheckTest(unittest.TestCase):
         path.write_text("request_interval_seconds = 0\n", encoding="utf-8")
         with self.assertRaises(ConfigError):
             load_config(path)
+
+    def test_default_table_path_is_readme(self):
+        path = self.root / "config.toml"
+        path.write_text("lang = \"ja\"\n", encoding="utf-8")
+        config = load_config(path)
+        self.assertEqual(config.table_path, Path("README.md"))
 
 
 if __name__ == "__main__":

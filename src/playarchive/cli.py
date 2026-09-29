@@ -32,7 +32,7 @@ def main(argv: list[str] | None = None) -> int:
     peek = sub.add_parser("peek", help="ストアの現在値を表示する")
     peek.add_argument("package")
     sub.add_parser("sheets", help="history.json の最新値をスプレッドシートへ書く")
-    sub.add_parser("table", help="history.json から閲覧用の Markdown 表を作る")
+    sub.add_parser("table", help="history.json から README.md の表を作る")
     args = parser.parse_args(argv)
 
     try:
