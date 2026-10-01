@@ -8,7 +8,7 @@
  * 4. createMorningTrigger を一度実行する（毎日 06:00 前後に syncFromGitHub）
  *
  * 書き込みタイミング:
- *   GitHub Actions が 03:00 JST 前後に history.json を更新し、このスクリプトは 06:00 JST 前後にそれを読む。
+ *   GitHub Actions が 00:00 JST 前後に history.json を更新し、このスクリプトは 06:00 JST 前後にそれを読む。
  *   対象アプリが1つも変わっていなければシートは触らない。変わっていれば末尾に1行足す。
  *   iOS / デスクトップは Ver の変化だけで記入。Android は Ver またはアプデ文面の変化で記入。
  *   変わっていないアプリの列は空白。反映済み・記事URLは常に空白（人が書く）。過去行は上書きしない。
